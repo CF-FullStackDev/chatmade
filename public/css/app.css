@@ -1674,6 +1674,10 @@ body.modal-open {
   padding: 10px 20px;
 }
 
+.center-panel .chat-container div.chat-message ul > li.message-left .multiple {
+  margin-left: 49px;
+}
+
 .center-panel .chat-container div.chat-message ul > li.message-right {
   text-align: right;
 }

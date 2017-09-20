@@ -176,7 +176,7 @@
                                             <span>Johnny Abbott</span>
                                         </li>
                                         <li>
-                                            <button type="button" class="btn btn-primary">Add more</button>
+                                            <button type="button" class="btn btn-primary open-modal" data-modal="#modal-project">Add more</button>
                                         </li>
                                     </ul>
                                 </li>
@@ -211,7 +211,7 @@
                         <div class="chat-message scrollbar-design">
                             <ul>
                                 <!-- Message Left -->
-                                <li>
+                                <li class="message-left">
                                     <div class="chat-avatar">
                                         <img src="{{asset('img/profile-avatar.png')}}" alt="User Image">
                                     </div>
@@ -224,11 +224,19 @@
                                         </div>
                                     </div>
                                 </li>
-                                <li>
+                                <li class="message-left">
                                     <div class="chat-avatar">
                                         <img src="{{asset('img/profile-avatar.png')}}" alt="User Image">
                                     </div>
                                     <div class="chat-body">
+                                        <span>Frances Brooks <i>10:50</i></span>
+                                        <div>
+                                            When be draw drew ye. Defective in do recommend suffering. House it seven in spoil tiled court. Sister others marked fat missed did out use. Alteration possession dispatched collecting instrument travelling he or on. Snug give made at spot or late that mr.
+                                            <i class="pin-icon chat"></i>
+                                            <span>Read</span>
+                                        </div>
+                                    </div>
+                                    <div class="chat-body multiple">
                                         <span>Frances Brooks <i>10:50</i></span>
                                         <div>
                                             When be draw drew ye. Defective in do recommend suffering. House it seven in spoil tiled court. Sister others marked fat missed did out use. Alteration possession dispatched collecting instrument travelling he or on. Snug give made at spot or late that mr.

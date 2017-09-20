@@ -1576,6 +1576,14 @@ body.modal-open {
             > li {
                 padding: 10px 20px;
 
+                &.message-left{
+
+                    .multiple{
+                        margin-left: 49px;  
+                    }
+
+                }
+
                 &.message-right {
                     text-align: right;
 
