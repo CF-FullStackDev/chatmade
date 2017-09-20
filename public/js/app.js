@@ -1133,6 +1133,19 @@ $(function () {
     });
 });
 
+//  ANGELO JS
+
+$(document).on('keyup', '.chat-input', function () {
+    var length = $(this).val().length;
+    if (length > 0) {
+        $(".chat-typing").addClass('active');
+    } else {
+        $(".chat-typing").removeClass('active');
+    }
+});
+
+//  END OF ANGELO JS
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

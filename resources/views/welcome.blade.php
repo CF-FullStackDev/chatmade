@@ -176,7 +176,7 @@
                                             <span>Johnny Abbott</span>
                                         </li>
                                         <li>
-                                            <button type="button" class="btn btn-primary open-modal" data-modal="#modal-project">Add more</button>
+                                            <button type="button" class="btn btn-primary open-modal" data-modal="#modal-edit-member">Edit Members</button>
                                         </li>
                                     </ul>
                                 </li>
@@ -277,6 +277,7 @@
                                 </li>
                                 <!-- End of Message -->
                             </ul>
+                            <span class="chat-typing">Kate Strickland is typing...</span>
                         </div>
 
                     </div>
@@ -299,7 +300,7 @@
                         </div>
 
                         <form action="" method="POST">
-                            <textarea name="" placeholder="Type something"></textarea>
+                            <textarea class="chat-input" name="" placeholder="Type something"></textarea>
                             <div class="btn-options">
                                 <button type="button" class="btn btn-smiley"></button>
                                 <button type="button" class="btn btn-file-upload"></button>
@@ -513,6 +514,65 @@
                             <div class="project-btn">
                                 <button type="button" class="btn btn-primary-ghost close-modal" data-modal="#modal-project">Cancel</button>
                                 <button type="button" name="" class="btn btn-primary">Create</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-dialog">
+                <div class="modal-body edit-member" id="modal-edit-member">
+                    <div class="content">
+                        <div class="content-header">
+                            <span>Edit Members</span>
+                        </div>
+                        <form class="form-default" action="" method="POST">
+
+                            <div class="right-content">
+                                <label>Invite Classmade</label>
+                                <input type="text" name="">
+                                <div class="search-user-list">
+                                    <ul>
+                                        <li>
+                                            <img src="{{asset('img/profile-avatar.png')}}">
+                                            <span>Kate Strickland</span>
+                                        </li>
+                                        <li>
+                                            <img src="{{asset('img/profile-avatar.png')}}">
+                                            <span>Frances Brooks</span>
+                                        </li>
+                                        <li>
+                                            <img src="{{asset('img/profile-avatar.png')}}">
+                                            <span>Cristian Fundanera</span>
+                                        </li>
+                                        <li>
+                                            <img src="{{asset('img/profile-avatar.png')}}">
+                                            <span>Angelo Bantiling</span>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <label>List of participants</label>
+                                <div class="list-participants">
+                                    <!-- 6 user max -->
+                                    <ul>
+                                        <li>
+                                            <img src="{{asset('img/profile-avatar.png')}}">
+                                            <span>Kate Strickland</span>
+                                            <button type="button" name="" class="btn btn-close"></button>
+                                        </li>
+                                        <li>
+                                            <img src="{{asset('img/profile-avatar.png')}}">
+                                            <span>Frances Brooks</span>
+                                            <button type="button" name="" class="btn btn-close"></button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="project-btn">
+                                <button type="button" class="btn btn-primary-ghost close-modal" data-modal="#modal-edit-member">Cancel</button>
+                                <button type="button" name="" class="btn btn-primary">Save</button>
                             </div>
                         </form>
                     </div>
