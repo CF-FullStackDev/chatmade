@@ -1144,6 +1144,19 @@ $(document).on('keyup', '.chat-input', function () {
     }
 });
 
+$(document).on('keyup', '.project-search', function () {
+    var length = $(this).val().length;
+    if (length > 0) {
+        $(".project-search-list").addClass('active');
+    } else {
+        $(".project-search-list").removeClass('active');
+    }
+});
+
+$(document).on('focusout', '.project-search', function () {
+    $(".project-search-list").removeClass('active');
+});
+
 //  END OF ANGELO JS
 
 /**

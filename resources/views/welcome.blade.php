@@ -157,8 +157,18 @@
                         <div class="project-menu">
                             <div class="search-section">
                                 <div class="input-container">
-                                    <input type="text" name="" placeholder="search conversation">
+                                    <input class="project-search" type="text" name="" placeholder="search conversation">
                                     <img src="{{asset('img/icons/icon-search-header.png')}}" alt="search icon">
+                                    <ul class="project-search-list scrollbar-design">
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Kate Strikland</span></a></li>
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Jericho Marcaida</span></a></li>
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Julia Hardy</span></a></li>
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Isaac King</span></a></li>
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Claudia George</span></a></li>
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Kate Strikland</span></a></li>
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Kate Strikland</span></a></li>
+                                        <li><a href="#"><img src="{{asset('img/profile-avatar.png')}}"><span>Kate Strikland</span></a></li>
+                                    </ul>
                                 </div>
                             </div>
                             <ul>
@@ -348,6 +358,20 @@
                                     <a href="javascript:;">x</a>
                                 </div>
 
+                                <div class="pin-body pin-body-file">
+                                    <img src="{{asset('img/icons/icon-folder.png')}}">
+                                    <span class="font-extraLight">File Name here.jpg</span>
+                                    <span>Charles Lo 10/18/2017</span>
+                                    <a href="javascript:;">x</a>
+                                </div>
+
+                                <div class="pin-body">
+                                    <span>Danny Spencer 3</span>
+                                    <div>
+                                        When be draw drew ye. Defective in do recommend suffering. House it seven in spoil tiled court.
+                                    </div>
+                                    <a href="javascript:;">x</a>
+                                </div>
                             </div>
                         </div>
                     </div>

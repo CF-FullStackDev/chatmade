@@ -19,7 +19,9 @@
                 <div class="login-page-left">
                     <img class="logo" src="{{asset('img/logo.png')}}">
                     <span>The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymph</span>
-                    <a class="login-btn" href="btn btn-primary">Continue as Jots</a>
+                    <div class="button-center">
+                        <a class="login-btn" href="btn btn-primary">Continue as Jots</a>
+                    </div>
                     <a class="login-classmade-btn" href="">Log in Classmade</a>
                 </div>
 
