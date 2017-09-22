@@ -76,13 +76,18 @@
                             </ul>
                         </div>
                     </li>
+                    <!-- <li class="list-content-empty">
+                        <img src="{{asset('img/icons/chat.png')}}">
+                        <span>No Recent Conversation</span>
+                        <a href="#">Start a New One</a>
+                    </li> -->
                 </ul>
 
                 <ul class="list-container">
                     <li class="header">
                         Teammades
                     </li>
-                    <li class="list-content-project">
+                    <!-- <li class="list-content-project">
                         <div class="scrollbar-design">
                             <ul class="list-project">
                                 <li class="demo-project1">
@@ -101,6 +106,9 @@
                                 </li>
                             </ul>
                         <div>
+ -->                    </li>
+                    <li class="list-content-project-empty">
+                        <span>No Project Yet</span>
                     </li>
                 </ul>
 
@@ -219,8 +227,8 @@
                         </div>
 
                         <div class="chat-message scrollbar-design">
-                            <ul>
-                                <!-- Message Left -->
+                            <!-- <ul>
+                                
                                 <li class="message-left">
                                     <div class="chat-avatar">
                                         <img src="{{asset('img/profile-avatar.png')}}" alt="User Image">
@@ -255,17 +263,17 @@
                                         </div>
                                     </div>
                                 </li>
-                                <!-- End of Message -->
+                                
 
-                                <!-- Message Time -->
+                                
                                 <li>
                                     <div class="chat-time">
                                         <h2><span>Today</span></h2>
                                     </div>
                                 </li>
-                                <!-- End of Time -->
+                                
 
-                                <!-- Message Right -->
+                                
                                 <li class="message-right">
                                     <div class="chat-avatar">
                                         <img src="{{asset('img/profile-avatar.png')}}" alt="User Image">
@@ -285,10 +293,16 @@
                                         </div>
                                     </div>
                                 </li>
-                                <!-- End of Message -->
+                                
                             </ul>
-                            <span class="chat-typing">Kate Strickland is typing...</span>
+                            <span class="chat-typing">Kate Strickland is typing...</span> -->
+
+                            <div class="chat-empty">
+                                <img src="{{asset('img/empty-chatmade.png')}}">
+                                <span>Your conversations will be shown here</span>
+                            </div>
                         </div>
+
 
                     </div>
                     <div class="chat-form">
@@ -340,7 +354,7 @@
 
                     <div class="pin-container">
                         <div class="pin-scroll scrollbar-design">
-                            <div class="pin-data">
+                            <!-- <div class="pin-data">
 
                                 <div class="pin-body">
                                     <span>Danny Spencer 1</span>
@@ -372,6 +386,12 @@
                                     </div>
                                     <a href="javascript:;">x</a>
                                 </div>
+                            </div> -->
+
+                            <div class="pin-data-empty">
+                                <img src="{{asset('img/icons/icon-pin-2x.png')}}">
+                                <span class="first-span">Your Pin Notes tab is empty.</span>
+                                <span class="second-span">Pin Notes from conversation will be shown here.</span>
                             </div>
                         </div>
                     </div>
@@ -382,7 +402,7 @@
                 <div class="panel files">
                     <div class="sub-header"><i class="pin-icon"></i> Files</div>
 
-                    <div class="files-container">
+                    <!-- <div class="files-container">
                         <div class="pin-scroll scrollbar-design">
                             <ul>
                                 <li>
@@ -398,6 +418,13 @@
                                 </li>
                             </ul>
                         </div>
+                        
+                    </div> -->.
+
+                    <div class="files-empty">
+                        <img src="{{asset('img/icons/icon-folder.png')}}">
+                        <span class="first-span">Your Pin Notes tab is empty.</span>
+                        <span class="second-span">Pin Notes from conversation will be shown here.</span>
                     </div>
                 </div>
 

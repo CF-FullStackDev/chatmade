@@ -2635,4 +2635,133 @@ div.project-search-list{
 
     }
   }
+
+  .list-content-empty{
+
+
+    img{
+        @extend .center;
+        margin-top: 60px;
+        margin-bottom: 32px;
+    }
+
+    span{
+        @extend .text-center;
+        color: #D6D6D6;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    a{
+        @extend .text-center;
+        color: #F18448;
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 62px;
+
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+  }
+
+  .list-content-project-empty{
+
+    span{
+        @extend .text-center;
+        margin-top: 80px;
+        margin-bottom: 51px;
+        color: #D6D6D6;
+        font-size: 12px;
+        font-weight: 500;
+    }
+  }
+
+  .chat-empty{
+    @extend .center;
+    width: 250px;
+    margin-top: 270px;
+
+    img{
+        margin-bottom: 35px;
+        max-height: 164px;  
+        max-width: 251px;
+        object-fit:contain;
+    }
+
+    span{
+        @extend .text-center;
+        font-size: 12px;
+        color: #767575;
+        font-weight: 500;
+    }
+  }
+
+  .pin-data-empty{
+
+    // margin-top: 110px;
+    transform: translateY(100px);
+
+    img{
+        @extend .center;
+        max-height: 49px;   
+        max-width: 28px;
+        margin-bottom: 21px;
+    }
+
+    .first-span{
+        @extend .text-center;
+        text-align: left;
+        width: 178px;
+        color: #7E7C7C;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .second-span{
+        @extend .text-center;
+        text-align: left;
+        width: 178px;
+        color: #7E7C7C;
+        font-size: 12px;
+        // margin-bottom: 20px;
+    }
+
+  }
+
+  .files-empty{
+
+    // margin-top: 110px;
+    transform: translateY(100px);
+
+    img{
+        @extend .center;
+        max-height: 49px;   
+        max-width: 65px;
+        margin-bottom: 21px;
+    }
+
+    .first-span{
+        @extend .text-center;
+        text-align: left;
+        width: 178px;
+        color: #7E7C7C;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    .second-span{
+        @extend .text-center;
+        text-align: left;
+        width: 178px;
+        color: #7E7C7C;
+        font-size: 12px;
+        // margin-bottom: 20px;
+    }
+
+  }
+
+
 // END OF ANGELO CSS
